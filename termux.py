@@ -15,7 +15,7 @@ p = "\033[95;1m"
 a = "\033[96;1m"
 s = "\033[97;1m"
 
-def maskedclown(x):
+def renjazu(x):
     w = {'w':90, 'm':31, 'h':32, 'k':33, 'b':34, 'p':35, 'a':96, 's':97}
     for i in w:
         x = x.replace('\r%s'%i, '\033[%s;1m'%w[i])
@@ -35,7 +35,7 @@ def runntxt(lolz):
 def banner():
 #    runntxt(h+"     Assalamu'alaikum       .")
     os.system('clear')
-    os.system('cowsay -f eyes "iqbalz" | lolcat')
+    os.system('cowsay -f eyes "renjazu" | lolcat')
     maskedclown("\rp          TOOLS EDIT TERMUX NEW")
     print s+"+---------------------------------------------+"
     maskedclown ("\ra|  Author:\rh King Renjazu")
